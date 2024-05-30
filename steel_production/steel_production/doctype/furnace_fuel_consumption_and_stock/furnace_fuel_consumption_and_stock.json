@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-30 18:35:35.389140",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "on_time",
+  "off_time",
+  "net_run_time",
+  "previous_gauge_measure",
+  "current_gauge_measure",
+  "fuel_consumption",
+  "previous_stock",
+  "current_stock",
+  "production"
+ ],
+ "fields": [
+  {
+   "default": "Now",
+   "fieldname": "on_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "On Time"
+  },
+  {
+   "default": "Now",
+   "fieldname": "off_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Off Time"
+  },
+  {
+   "default": "0",
+   "fieldname": "net_run_time",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Net Run Time",
+   "read_only": 1
+  },
+  {
+   "fieldname": "previous_gauge_measure",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Prev. GM"
+  },
+  {
+   "fieldname": "current_gauge_measure",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Cur. GM"
+  },
+  {
+   "default": "0",
+   "fieldname": "fuel_consumption",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "FC",
+   "read_only": 1
+  },
+  {
+   "fieldname": "previous_stock",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Prev. Stock"
+  },
+  {
+   "fieldname": "current_stock",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Cur. Stock"
+  },
+  {
+   "fieldname": "production",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Production",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-30 18:51:10.745147",
+ "modified_by": "Administrator",
+ "module": "Steel Production",
+ "name": "Furnace Fuel Consumption And Stock",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

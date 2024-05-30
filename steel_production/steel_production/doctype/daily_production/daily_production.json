@@ -19,7 +19,11 @@
   "column_break_x4utf",
   "warehouse",
   "stock_entry",
+  "section_break_5s18s",
+  "gas_meter_reading",
   "section_break_2kwvd",
+  "furnace_fuel_consumption_and_stock",
+  "section_break_qtf1y",
   "raw_material_items",
   "section_break_yxqco",
   "total_raw_material_qty",
@@ -209,12 +213,32 @@
   {
    "fieldname": "column_break_ceula",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_5s18s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "gas_meter_reading",
+   "fieldtype": "Table",
+   "label": "Gas Meter Reading",
+   "options": "Gas Meter Reading"
+  },
+  {
+   "fieldname": "furnace_fuel_consumption_and_stock",
+   "fieldtype": "Table",
+   "label": "Furnace Fuel Consumption And Stock",
+   "options": "Furnace Fuel Consumption And Stock"
+  },
+  {
+   "fieldname": "section_break_qtf1y",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-05-30 15:31:04.697144",
+ "modified": "2024-05-30 18:42:27.702507",
  "modified_by": "Administrator",
  "module": "Steel Production",
  "name": "Daily Production",
