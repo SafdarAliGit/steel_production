@@ -215,3 +215,4 @@ app_license = "MIT"
 # auth_hooks = [
 #	"steel_production.auth.validate"
 # ]
+required_apps = ["erpnext"]
