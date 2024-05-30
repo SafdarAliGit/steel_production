@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include steel_production *.css
+recursive-include steel_production *.csv
+recursive-include steel_production *.html
+recursive-include steel_production *.ico
+recursive-include steel_production *.js
+recursive-include steel_production *.json
+recursive-include steel_production *.md
+recursive-include steel_production *.png
+recursive-include steel_production *.py
+recursive-include steel_production *.svg
+recursive-include steel_production *.txt
+recursive-exclude steel_production *.pyc
